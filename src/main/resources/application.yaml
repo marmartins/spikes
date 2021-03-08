@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/BENCHMARKDB
+    username: SVCcryptoD
+    password: SVCcryptoD@123
+    data: classpath:data.sql
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
